@@ -1,0 +1,75 @@
+div.header-1 {
+  background-color: rgb(248, 210, 0);
+  margin: 0%;
+  color: rgb(35, 35, 35);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font: Sans, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+div.header-2 {
+  background-color: rgb(89, 186, 247);
+  color: rgb(14, 14, 14);
+  font: Sans, sans-serif;
+  font-size: small;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: 50px;
+}
+/* #head1 .a {
+  word-wrap: break-word;
+  width: 300px;
+} */
+div.header-3 {
+  background-color: green;
+  color: white;
+  font: Sans, sans-serif;
+  padding-left: 9%;
+  font-style: italic, bolder;
+  font-size: xx-large;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100;
+}
+#menu {
+  background-color: green;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  color: white;
+}
+
+div.header-4 {
+  background-color: rgb(91, 89, 89);
+  display: inline-flexbox;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 0%;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  font: Open Sans, sans-serif;
+  font-style: bolder;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+ul {
+  list-style-type: none;
+}
+/* div.header-div {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0%;
+} */
