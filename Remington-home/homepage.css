@@ -8,7 +8,7 @@ div.header-1 {
   font: Sans, sans-serif;
   font-size: 12px;
   font-weight: bold;
-  height: 25px;
+  height: 24px;
   margin-bottom: 0%;
   margin-top: 0%;
 }
@@ -17,59 +17,137 @@ div.header-2 {
   color: rgb(14, 14, 14);
   font: Sans, sans-serif;
   font-size: small;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 0%;
   margin-bottom: 0%;
-  height: 50px;
+  height: 24px;
 }
 /* #head1 .a {
   word-wrap: break-word;
   width: 300px;
 } */
 div.header-3 {
+  display: flex;
+  float: left;
+  align-items: center;
+  /* border: 2px solid black; */
   background-color: green;
   color: white;
-  font: Sans, sans-serif;
+  font-style: oblique 30deg;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding-left: 9%;
-  font-style: italic, bolder;
-  font-size: xx-large;
+  font-size: 45px;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 100;
+  width: 65%;
+  height: 89px;
 }
 #menu {
-  background-color: green;
   display: flex;
-  justify-content: flex-end;
+  float: right;
+  flex-wrap: nowrap;
+  gap: 20px;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  background-color: green;
+  gap: 30px;
+  width: 35%;
+  /* justify-content: space-between; */
+  align-items: center;
+
   font-size: 0.9rem;
   color: white;
+  height: 89px;
+  position: relative;
+  padding-left: 230px;
+  padding-right: 150px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 div.header-4 {
   background-color: rgb(91, 89, 89);
-  display: inline-flexbox;
-  justify-content: space-evenly;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: initial;
   gap: 10px;
-  margin-top: 0%;
+  row-gap: 20px;
   width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 10%;
+  padding-left: 16%;
   padding-right: 10%;
   color: white;
-  font: Open Sans, sans-serif;
+  font-family: monospace;
+  font-weight: 700;
   font-style: bolder;
-  font-size: 0.875rem;
-  letter-spacing: 0.5px;
+  font-size: 0.8em;
+  letter-spacing: 0.4px;
+  height: 35px;
 }
 ul {
   list-style-type: none;
+  row-gap: 20px;
 }
-/* div.header-div {
+.container {
   display: flex;
+  position: relative;
   width: 100%;
-  padding: 0;
   margin: 0%;
-} */
+  padding: 0%;
+  border: 0%;
+  right: 5%;
+}
+
+#turkey-pic {
+  z-index: -1;
+  /* position: relative; */
+  width: 100%;
+  /* min-height: 380px;
+  min-width: 1300px; */
+}
+.gear-text {
+  z-index: 1;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  /* transform: (-50%, -50%); */
+  color: rgb(28, 9, 9);
+  border: 2px solid red;
+  font-size: 2em;
+}
+#shopnow {
+  z-index: 2;
+  /* display: flex; */
+  padding-left: 50%;
+  padding-top: 50%;
+  height: 25px;
+  width: 45px;
+  position: relative;
+  color: rgb(12, 3, 3);
+  border: 2px solid red;
+}
+#ammo-header {
+  padding-left: 25%;
+  display: flex;
+  position: center;
+  color: black;
+}
+#ammo-detail {
+  padding-top: 2px;
+  padding-left: 25%;
+  display: flex;
+  position: center;
+}
+#ammo-spread {
+  display: inline-flex;
+  position: relative;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-left: 10%;
+  padding-right: 10%;
+}
