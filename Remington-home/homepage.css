@@ -103,43 +103,69 @@ ul {
 
 #turkey-pic {
   z-index: -1;
-  /* position: relative; */
+  position: relative;
   width: 100%;
-  /* min-height: 380px;
-  min-width: 1300px; */
 }
-.gear-text {
+.doc .gear-gobblers {
+  position: absolute;
   z-index: 1;
-  position: relative;
-  top: 50%;
-  left: 40%;
-  /* transform: (-50%, -50%); */
-  color: rgb(28, 9, 9);
-  border: 2px solid red;
-  font-size: 2em;
+  top: 24%;
+  text-align: center;
+  text-transform: uppercase;
+  left: 37%;
+  color: #fff;
+  margin-top: 67px;
+  font-size: 2.125rem;
+  letter-spacing: 0.01px;
+  font-weight: 600;
+  font-style: bold;
+  font-stretch: expanded;
+  line-height: 1.2;
+  font-family: Oswald, sans-serif;
 }
-#shopnow {
+.doc #shopnow {
+  position: absolute;
   z-index: 2;
-  /* display: flex; */
-  padding-left: 50%;
-  padding-top: 50%;
-  height: 25px;
-  width: 45px;
-  position: relative;
-  color: rgb(12, 3, 3);
-  border: 2px solid red;
+  display: inline-block;
+  padding-left: 0%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 18.5%;
+  text-align: center;
+  margin-left: 50%;
+  font-size: 0.725em;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  vertical-align: middle;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  height: 24px;
+  width: 90px;
+  border: 2px solid #337321;
+  background-color: #337321;
+  color: hwb(240 100% 0%);
 }
 #ammo-header {
-  padding-left: 25%;
+  padding-left: 35%;
   display: flex;
   position: center;
   color: black;
+  width: 100%;
+  height: ;
+  border: 2px solid black;
+  margin-top: 18px;
+  font-size: 1.65rem;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #ammo-detail {
   padding-top: 2px;
-  padding-left: 25%;
-  display: flex;
-  position: center;
+  padding-left: 377px;
+  /* display: inline-block; */
+  /* position: center; */
+  font-size: small;
+  /* padding-left: 27%; */
 }
 #ammo-spread {
   display: inline-flex;
